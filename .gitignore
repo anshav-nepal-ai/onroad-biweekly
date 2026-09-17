@@ -1,0 +1,44 @@
+# Local env (secrets — never commit)
+.env
+
+# Go binaries
+app
+go-backend-react-frontend
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Frontend
+frontend/node_modules/
+frontend/dist/*
+!frontend/dist/index.html
+frontend/.vite/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated data files (populated at runtime)
+vehicles.json
+trucks.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude session data
+.claude/

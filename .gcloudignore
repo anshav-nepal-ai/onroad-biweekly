@@ -1,0 +1,10 @@
+# Exclude the .git directory and the ignore files themselves
+.git/
+.gitignore
+.gcloudignore
+
+# Import your existing gitignore rules
+#!include:.gitignore
+
+# EXPLICITLY INCLUDE your binary (replace 'my-app-binary' with your actual filename)
+!app
